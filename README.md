@@ -2,8 +2,8 @@
 [![Build Status](https://travis-ci.com/corneliusweig/rakkess.svg?branch=master)](https://travis-ci.com/corneliusweig/rakkess)
 [![Code Coverage](https://codecov.io/gh/corneliusweig/rakkess/branch/master/graph/badge.svg)](https://codecov.io/gh/corneliusweig/rakkess)
 [![Go Report Card](https://goreportcard.com/badge/corneliusweig/rakkess)](https://goreportcard.com/report/corneliusweig/rakkess)
-[![LICENSE](https://img.shields.io/github/license/corneliusweig/rakkess.svg)](https://github.com/corneliusweig/rakkess/blob/master/LICENSE)
-[![Releases](https://img.shields.io/github/release-pre/corneliusweig/rakkess.svg)](https://github.com/corneliusweig/rakkess/releases)
+[![LICENSE](https://img.shields.io/github/license/corneliusweig/rakkess.svg)](https://github.com/berney/rakkess/blob/master/LICENSE)
+[![Releases](https://img.shields.io/github/release-pre/corneliusweig/rakkess.svg)](https://github.com/berney/rakkess/releases)
 
 Review Access - kubectl plugin to show an access matrix for server resources
 
@@ -101,7 +101,7 @@ When using the binaries for installation, also have a look at [doc/USAGE](doc/US
 
 #### Linux
 ```bash
-curl -LO https://github.com/corneliusweig/rakkess/releases/download/v0.5.0/rakkess-amd64-linux.tar.gz \
+curl -LO https://github.com/berney/rakkess/releases/download/v0.6.1-alpha.1/rakkess-amd64-linux.tar.gz \
   && tar xf rakkess-amd64-linux.tar.gz rakkess-amd64-linux \
   && chmod +x rakkess-amd64-linux \
   && mv -i rakkess-amd64-linux $GOPATH/bin/rakkess
@@ -109,14 +109,14 @@ curl -LO https://github.com/corneliusweig/rakkess/releases/download/v0.5.0/rakke
 
 #### OSX
 ```bash
-curl -LO https://github.com/corneliusweig/rakkess/releases/download/v0.5.0/rakkess-amd64-darwin.tar.gz \
+curl -LO https://github.com/berney/rakkess/releases/download/v0.6.1-alpha.1/rakkess-amd64-darwin.tar.gz \
   && tar xf rakkess-amd64-darwin.tar.gz rakkess-amd64-darwin \
   && chmod +x rakkess-amd64-darwin \
   && mv -i rakkess-amd64-darwin $GOPATH/bin/rakkess
 ```
 
 #### Windows
-[https://github.com/corneliusweig/rakkess/releases/download/v0.5.0/rakkess-windows-amd64.zip](https://github.com/corneliusweig/rakkess/releases/download/v0.5.0/rakkess-windows-amd64.zip)
+[https://github.com/berney/rakkess/releases/download/v0.6.1-alpha.1/rakkess-windows-amd64.zip](https://github.com/berney/rakkess/releases/download/v0.6.1-alpha.1/rakkess-windows-amd64.zip)
 
 ### From source
 

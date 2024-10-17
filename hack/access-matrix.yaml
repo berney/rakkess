@@ -6,7 +6,7 @@ spec:
   version: {{ .TagName }}
   platforms:
   - bin: access-matrix-amd64-linux
-    {{ addURIAndSha "https://github.com/corneliusweig/rakkess/releases/download/{{ .TagName }}/access-matrix-amd64-linux.tar.gz" .TagName }}
+    {{ addURIAndSha "https://github.com/berney/rakkess/releases/download/{{ .TagName }}/access-matrix-amd64-linux.tar.gz" .TagName }}
     files:
       - from: LICENSE
         to: .
@@ -17,7 +17,7 @@ spec:
         os: linux
         arch: amd64
   - bin: access-matrix-amd64-darwin
-    {{ addURIAndSha "https://github.com/corneliusweig/rakkess/releases/download/{{ .TagName }}/access-matrix-amd64-darwin.tar.gz" .TagName }}
+    {{ addURIAndSha "https://github.com/berney/rakkess/releases/download/{{ .TagName }}/access-matrix-amd64-darwin.tar.gz" .TagName }}
     files:
       - from: LICENSE
         to: .
@@ -28,7 +28,7 @@ spec:
         os: darwin
         arch: amd64
   - bin: access-matrix-arm64-darwin
-    {{ addURIAndSha "https://github.com/corneliusweig/rakkess/releases/download/{{ .TagName }}/access-matrix-arm64-darwin.tar.gz" .TagName }}
+    {{ addURIAndSha "https://github.com/berney/rakkess/releases/download/{{ .TagName }}/access-matrix-arm64-darwin.tar.gz" .TagName }}
     files:
       - from: LICENSE
         to: .
@@ -39,7 +39,7 @@ spec:
         os: darwin
         arch: arm64
   - bin: access-matrix-amd64-windows.exe
-    {{ addURIAndSha "https://github.com/corneliusweig/rakkess/releases/download/{{ .TagName }}/access-matrix-amd64-windows.zip" .TagName }}
+    {{ addURIAndSha "https://github.com/berney/rakkess/releases/download/{{ .TagName }}/access-matrix-amd64-windows.zip" .TagName }}
     files:
       - from: LICENSE
         to: .
@@ -50,7 +50,7 @@ spec:
         os: windows
         arch: amd64
   shortDescription: Show an RBAC access matrix for server resources
-  homepage: https://github.com/corneliusweig/rakkess
+  homepage: https://github.com/berney/rakkess
   caveats: |
       Usage:
         kubectl access-matrix

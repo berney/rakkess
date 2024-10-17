@@ -16,7 +16,7 @@ export GO111MODULE ?= on
 export CGO_ENABLED ?= 0
 
 PROJECT   ?= rakkess
-REPOPATH  ?= github.com/corneliusweig/$(PROJECT)
+REPOPATH  ?= github.com/berney/$(PROJECT)
 COMMIT    := $(shell git rev-parse HEAD)
 VERSION   ?= $(shell git describe --always --tags --dirty)
 GOOS      ?= $(shell go env GOOS)
